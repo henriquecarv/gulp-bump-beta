@@ -2,6 +2,7 @@
 
 Gulp plugin to bump beta version property in versioning files
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1e831726c12b40f392acff9db4571ee4)](https://app.codacy.com/app/henriquecarv/gulp-bump-beta?utm_source=github.com&utm_medium=referral&utm_content=henriquecarv/gulp-bump-beta&utm_campaign=Badge_Grade_Settings)
 [![Build Status](https://dev.azure.com/henriquecarvgit/henriquecarvgit/_apis/build/status/henriquecarv.gulp-bump-beta?branchName=master)](https://dev.azure.com/henriquecarvgit/henriquecarvgit/_build/latest?definitionId=8)
 [![npm](https://img.shields.io/npm/v/gulp-bump-beta.svg)](https://www.npmjs.com/package/gulp-bump-beta)
 [![npm](https://img.shields.io/npm/dt/gulp-bump-beta.svg)](https://www.npmjs.com/package/gulp-bump-beta)
