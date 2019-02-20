@@ -25,7 +25,7 @@ Gulp plugin to bump beta version property in versioning files
 const gulp = require('gulp');
 const beta = require('gulp-bump-beta');
 
-const paths = { package: './package.json', manifest: './manifest.json' };
+const paths = {package: './package.json', manifest: './manifest.json'};
 
 const bumpBeta = () => {
   return gulp
