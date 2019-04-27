@@ -19,13 +19,13 @@
   "author": "Henrique Carvalho da Cruz <henriquecarv.cruz@gmail.com> (https://henriquecarv.com)",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.10.0",
+    "eslint": "^5.16.0",
     "eslint-config-google": "^0.12.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint-plugin-import": "^2.17.2"
   },
   "dependencies": {
     "plugin-error": "^1.0.1",
     "plugin-log": "^0.1.0",
-    "through2": "^3.0.0"
+    "through2": "^3.0.1"
   }
 }

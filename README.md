@@ -22,24 +22,24 @@ Gulp plugin to bump beta version property in versioning files
 - Create a gulpfile to run your tasks.
 
 ```javascript
-const gulp = require('gulp');
-const beta = require('gulp-bump-beta');
+const gulp = require("gulp");
+const beta = require("gulp-bump-beta");
 
-const paths = {package: './package.json', manifest: './manifest.json'};
+const paths = { package: "./package.json", manifest: "./manifest.json" };
 
 const bumpBeta = () => {
   return gulp
     .src(Object.values(paths))
     .pipe(beta())
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest("./"));
 };
 
-gulp.task('bump-beta', gulp.series(bumpBeta));
+gulp.task("bump-beta", gulp.series(bumpBeta));
 ```
 
 ### License
 
-Copylefted (c) 2018 [Henrique Carvalho da Cruz][1] Licensed under the [MIT license][2].
+Copylefted (c) 2019 [Henrique Carvalho da Cruz][1] Licensed under the [MIT license][2].
 
 [1]: https://henriquecarv.com
 [2]: ./LICENSE
