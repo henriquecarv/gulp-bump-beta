@@ -37,6 +37,20 @@ const bumpBeta = () => {
 gulp.task("bump-beta", gulp.series(bumpBeta));
 ```
 
+- run your bump-beta script: `gulp bump-beta`
+
+## Output example
+
+```bash
+[00:00:00] Using gulpfile ~/git/example/gulpfile.js
+[00:00:00] Starting 'bump'...
+[00:00:00] Starting 'bumpBeta'...
+[00:00:00] Bumped 1.0.0 to 1.0.0-beta.1 with type: beta
+[00:00:00] Finished 'bumpBeta' after 26 ms
+```
+
+- Your project's `package.json` file should have the new beta version.
+
 ### License
 
 Copylefted (c) 2019 [Henrique Carvalho da Cruz][1] Licensed under the [MIT license][2].
